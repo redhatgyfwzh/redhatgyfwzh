@@ -1,0 +1,363 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+.row .header{
+
+    width: 100%;
+    position: absolute;
+    z-index: 100;
+    /*opacity: 0.1;*/
+
+}
+
+.row .header .bg{
+    position: absolute;
+    height: 140px;
+    width: 100%;
+    background: white;
+    opacity: 0.1;
+    /*z-index: 130;*/
+    float: left;
+}
+/*.header .content .row{
+    background-color: red;
+    height: 120px;
+    
+}*/
+.header .content  .row a{
+    color: white;
+    font-size: 15px;
+    text-decoration: none;
+    float: left;
+    cursor: pointer;
+}
+.header .content  .row span{
+    color: white;
+    font-size: 20px;
+}
+.header .content  .row .sign{
+    float: right;
+    
+    /*cursor: pointer;*/
+}
+
+.header .content  .row .sign a{
+    /*margin-top: 60px;*/
+    margin-left: 5px;
+    /*cursor: pointer;*/
+}
+.row .header .content .menu{
+    
+    /*background-color: yellow;*/
+    /*float: left;*/
+}
+/*.row .header .content .menu .menu-buttom{
+    margin-top: 65px;
+}*/
+.row .header .content .menu .menu-buttom .li1 a:hover {
+    color:rgb(55, 49, 138);
+    background: none;
+}
+.row .header .content .menu .menu-buttom  .active a:hover{
+    background: none;
+}
+.row .header .content .menu .menu-buttom  .active a:link{
+    background: none;
+}
+.row .header .content .menu .menu-buttom .li1:hover li{
+    border-top: 1px solid #c5c5c5;
+    display: block;
+}
+.row .header .content .menu .menu-buttom .li1 a{
+    font-size: 20px;
+    font-family: Microsoft YaHei UI;
+    color:rgb(51, 122, 183);
+    text-align: center;
+    cursor: pointer;
+}
+
+.row .header .content .menu .menu-buttom .li1 li{
+    list-style: none;
+    /*width: 150px;*/
+    height: 50px;
+    line-height: 50px;
+    display: none;
+    cursor: pointer;
+    text-align: center;
+    background-color: white;
+    opacity: 0.5;
+}
+.row .header .content .menu .menu-buttom .li1 li a{
+    text-decoration: none;
+    color: black;
+    font-size: 20px;
+    /*float: left;*/
+}
+.row .header .content .menu-top a{
+    text-decoration: none;
+    font-size: 20px;
+    color: white;
+}
+.row .header .content  .menu-top span{
+    color: white;
+    font-size: 20px;
+}
+
+.row .banner{
+    z-index: 1;
+}
+
+.row .banner .message{
+    background-color: white;
+    height: 60px;
+    width: 200px;
+    position: absolute;
+    top: 400px;
+    left: 575px;
+    border-radius: 30px;
+    border:1px solid rgb(114, 65, 173);
+    
+
+}
+.row .banner .message:hover {
+    background-color: rgb(188, 28, 28);
+}
+.row .banner .message:hover a{
+    color: white;
+}
+.row .banner .message a{
+    color: rgb(114, 65, 173);
+    font-size: 20px;
+    text-decoration: none;
+    line-height: 59px;
+    margin-left: 60px;
+}
+
+.container .content-row1{
+    margin: 0px auto;
+    width: 130px;
+    height: 38px;
+    /*height: 20px;*/
+    font-size: 30px;
+    margin-top: 70px;
+}
+.container .content-row2{
+    width: 100px;
+    height: 15px;
+    margin:0px auto;
+    text-align: center;
+}
+.container .zs {
+    width: 80px;
+    height: 70px;
+    margin:0px auto;
+    /*background-color: blue;*/
+}
+.container .zs .span_1{
+    height: 60px;
+    width: 1px;
+    border: 1px solid #ccc;
+    margin: 0px auto;
+}
+.container .zs .span_2{
+    margin: 0px auto;
+    width: 12px;
+    height: 12px;
+    border-radius: 50%;
+    background-color: white;
+    border: 1px solid red;
+}
+.container .content-row3{
+    margin-top: 10px;
+}
+/*.container{
+    background-color: red;
+    padding: 0px;
+
+}*/
+.container .content-row3 .thumbnail{
+    width: 320px;
+    height: 300px;
+    border: none;
+
+}
+.container .content-row3 .thumbnail .c1{
+    width: 120px;
+    height: 120px;
+    font-size: 50px;
+    /*background-color: red;*/
+    margin:0px auto;
+}
+.container .content-row3 .thumbnail .c1 .circular-out{
+    height: 120px;
+    width: 120px;
+    border-radius: 50%;
+    border: 1px solid #ccc;
+    /*background-color: blue;*/
+    /*line-height: 120px;*/
+    padding-top: 16px;
+}
+.container .content-row3 .thumbnail .c1 .circular-out .circular-in{
+    height: 88px;
+    width: 88px;
+    border-radius: 50%;
+    background-color: rgb(239, 242, 247);
+    margin:0px auto;
+    padding-left: 19px;
+ 
+}
+.container .content-row3 .thumbnail .c1 .circular-out .circular-in span{
+    width: 50px;
+    line-height: 88px;
+    margin:0px auto;
+}
+.container .content-row3 .thumbnail .c1 .circular-out:hover{
+    background-color: rgb(255, 1, 70);
+}
+.container .content-row3 .thumbnail .desc{
+
+    width: 100px;
+    height: 25px;
+    margin:10px auto;
+    
+    line-height: 25px;
+    font-size: 25px;
+}
+.container .content-row3 .thumbnail .ornament{
+    width: 100px;
+    height: 2px;
+    margin:0px auto;
+   
+}
+.container .content-row3 .thumbnail .ornament .or{
+    height: 2px;
+    width: 20px;
+    margin:0px auto;
+    border: 1px solid orange;
+}
+.container .content-row3 .thumbnail .caption{
+
+    width: 250px;
+    height: 100px;
+    margin: 0px auto;
+}
+/*.achievement .list{
+    position: relative;
+    top: -160px;
+   
+}*/
+/*.achievement .list li{
+    float: left;
+    margin-left: 250px;
+}*/
+/*.achievement .z1{
+
+  font-size: 30px;
+}*/
+
+.count img{
+    cursor: pointer;  
+    transition: all 2s;  
+}
+.count img:hover{
+    transform: scale(1.1);
+};
+.c-ai{
+    height: 500px;
+}
+.linkbox{
+    width: 340px;
+    height: 45px;
+    /*background-color: red;*/
+    margin: 0px auto;
+
+}
+.linkbox .link1{
+    width: 160px;
+    height: 45px;
+    border: 1px solid rgb(74, 65, 210);
+    /*background-color: blue;*/
+    border-radius: 30px;
+    float: left;
+    text-align: center;
+    margin-right: 10px;}
+.linkbox .link2{
+    width: 160px;
+    height: 45px;
+    border: 1px solid rgb(74, 65, 210);
+    text-align: center;
+    border-radius: 30px;
+    float: left;
+    /*margin: 0px auto;*/
+}
+
+.linkbox .link1 a{
+     
+     line-height: 45px;
+     text-decoration: none;
+}
+.linkbox .link2 a{
+     text-decoration: none;
+     line-height: 45px;
+}
+
+.linkbox .link1:hover{
+    background-color: rgb(189, 29, 29);
+};
+.linkbox .link1:hover a{
+    color: white;
+    background-color: white;
+}
+.linkbox .link2:hover{
+    background-color: rgb(189, 29, 29);
+};
+.new-box{
+    background-color: red;
+    width: 340px;
+    height: 300px;
+    /*border: none;*/
+    margin-top: 30px;
+    margin-left: 30px;
+
+}
+.new-box img{
+    /*background-color: red;*/
+    width: 281px;
+    height: 166px;
+    border: none;
+    cursor: pointer;
+}
+.new-box .desc{
+    background-color: #ccc;
+    width: 281px;
+}
+.new-box .desc  a{
+    text-decoration: none;
+    color: gray;
+}
+.new-box .desc:hover a{
+    color: rgb(245, 85, 85);
+    cursor: pointer;
+}
+.new-box .desc .time{
+    opacity: 0.5;
+}
+.new-shadow{
+    width: 281px;
+    height: 50px;
+    background-color: rgba(0, 0, 0, 0.45);
+    position: absolute;
+    top: 117px;
+    color: rgb(207, 207, 177);
+    font-size: 13px;
+    display: none;
+    transition: display 2s;
+    -webkit-transition: display 2s;
+
+}
+.new-box:hover  .new-shadow{
+    display: block;
+
+
+};

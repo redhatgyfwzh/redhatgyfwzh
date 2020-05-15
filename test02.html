@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="zh-cn">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>基于bootstrap的轮播广告页，带图片和文字</title>
+    <link rel="stylesheet" href="./css/bootstrap.min.css">
+    <style>
+        .carousel {
+            height: 500px;
+        }
+        .carousel .item {
+            height: 500px;
+        }
+        .carousel .item img {
+            width: 100%;
+        }
+        .LBbox{
+          width: 100px;
+          height: 100px;
+        }
+    </style>
+    <script type="text/javascript">
+    $(document).ready(function(){
+    $('#myCarousel').carousel();
+    }
+    </script>
+</head>
+
+ <body>
+    <div id="myCarousel" class="carousel slide pad_010 b_k" data-ride="carousel">
+      <!-- 轮播（Carousel）指标 -->
+      <ol class="carousel-indicators">
+          <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+          <li data-target="#myCarousel" data-slide-to="1"></li>
+          <li data-target="#myCarousel" data-slide-to="2"></li>
+      </ol>   
+      <!-- 轮播（Carousel）项目 -->
+      <div class="carousel-inner bor_btm">
+          <div class="item active" >
+              <div class="pic">
+                  <img src="img/01.jpg" >
+                  <img src="img/02.jpg" >
+                  <img src="img/03.jpg" >
+                  <img src="img/04.jpg" >
+              </div>
+          </div>
+          <div class="item">
+              <div class="pic">
+                  <img src="img/01.jpg" >
+                  <img src="img/02.jpg" >
+                  <img src="img/03.jpg" >
+                  <img src="img/04.jpg" >
+              </div>
+          </div>
+          <div class="item">
+              <div class="pic">
+                  <img src="img/01.jpg" >
+                  <img src="img/02.jpg" >
+                  <img src="img/03.jpg" >
+                  <img src="img/04.jpg" >
+              </div>
+          </div>
+       </div>
+       <!-- 轮播（Carousel）导航 -->
+       <a class="carousel-control left" href="#myCarousel" data-slide="prev">&lsaquo;</a>
+       <a class="carousel-control right" href="#myCarousel" data-slide="next">&rsaquo;</a>      
+    </div>
+</body>
+</html>

@@ -1,0 +1,128 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+.row .header{
+
+    width: 100%;
+    position: absolute;
+    z-index: 100;
+    /*opacity: 0.1;*/
+
+}
+
+.row .header .bg{
+    position: absolute;
+    height: 140px;
+    width: 100%;
+    background: white;
+    opacity: 0.1;
+    /*z-index: 130;*/
+    float: left;
+}
+/*.header .content .row{
+    background-color: red;
+    height: 120px;
+    
+}*/
+.header .content  .row a{
+    color: white;
+    font-size: 15px;
+    text-decoration: none;
+    float: left;
+    cursor: pointer;
+}
+.header .content  .row span{
+    color: white;
+    
+}
+.header .content  .row .sign{
+    float: right;
+}
+.header .content  .row .sign a{
+    /*margin-top: 60px;*/
+    margin-left: 5px;
+}
+.row .header .content .menu{
+    
+    /*background-color: yellow;*/
+    float: right;
+}
+/*.row .header .content .menu .menu-buttom{
+    margin-top: 65px;
+}*/
+.row .header .content .menu .menu-buttom .li1 a:hover {
+    color: blue;
+    background: none;
+}
+.row .header .content .menu .menu-buttom  .active a:hover{
+    background: none;
+}
+.row .header .content .menu .menu-buttom  .active a:link{
+    background: none;
+}
+.row .header .content .menu .menu-buttom .li1:hover li{
+    border-top: 1px solid #c5c5c5;
+    display: block;
+}
+.row .header .content .menu .menu-buttom .li1 a{
+    font-size: 20px;
+    font-family: Microsoft YaHei UI;
+    color:white;
+    text-align: center;
+}
+
+.row .header .content .menu .menu-buttom .li1 li{
+    list-style: none;
+    /*width: 150px;*/
+    height: 50px;
+    line-height: 50px;
+    display: none;
+    cursor: pointer;
+    text-align: center;
+    background-color: white;
+    opacity: 0.5;
+}
+.row .header .content .menu .menu-buttom .li1 li a{
+    text-decoration: none;
+    color: black;
+    font-size: 20px;
+    /*float: left;*/
+}
+.row .header .content .menu-top a{
+    text-decoration: none;
+    font-size: 20px;
+    color: white;
+}
+.row .header .content  .menu-top span{
+    color: white;
+    font-size: 20px;
+}
+
+.row .banner{
+    z-index: 1;
+}
+
+.row .banner .message{
+    background-color: white;
+    height: 60px;
+    width: 200px;
+    position: absolute;
+    top: 400px;
+    left: 570px;
+    border-radius: 30px;
+    border:1px solid rgb(114, 65, 173);
+    
+
+}
+.row .banner .message a{
+    color: rgb(114, 65, 173);
+    font-size: 20px;
+    text-decoration: none;
+    line-height: 59px;
+    margin-left: 60px;
+}
+/*.container .content-row1{
+    height: 100px;
+    background-color: red;
+}*/
