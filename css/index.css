@@ -327,6 +327,10 @@
     height: 166px;
     border: none;
     cursor: pointer;
+    transition: all 2s;
+}
+.new-box img:hover{
+    transform: scale(1.05);
 }
 .new-box .desc{
     background-color: #ccc;
@@ -357,7 +361,45 @@
 
 }
 .new-box:hover  .new-shadow{
-    display: block;
+    display:block;
 
 
 };
+.message-bg{
+    width: 100%;
+    height: 210px;
+    background-color: rgb(55, 49, 139);
+}
+.message-bg .img{
+    padding-left: 650px;
+    margin-bottom: 100px;
+}
+.footer-top {
+
+    margin-top: 77px;
+    border-top: 1px solid #e5e5e5;
+    color: #ccc;
+    padding: 0px 0px 15px 0px;
+    background-color: rgb(55, 49, 139);
+}
+.footer-top p{
+    font-size: 20px;
+}
+.footer-top li{
+    list-style: none;
+    margin-top: 5px;
+}
+.footer-top li a{
+    text-decoration: none;
+    color: rgb(136, 136, 136);
+    cursor: pointer;
+    font-size: 13px;
+}
+.footer {
+    height: 100px;
+    position: relative;
+    color: #ccc;
+    padding: 0px 0px 15px 0px;
+    background-color: rgb(26, 26, 26);
+}
+
